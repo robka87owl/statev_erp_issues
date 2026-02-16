@@ -1,0 +1,12 @@
+name: 🚀 Feature Vorschlag
+description: Schlage eine neue Funktion vor.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Deine Idee
+      placeholder: Ich wünsche mir, dass...
+    validations:
+      required: true
