@@ -1,0 +1,19 @@
+name: 🐞 Fehler melden
+description: Melde einen Fehler im ERP.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Was ist passiert?
+      placeholder: Beschreibe den Fehler...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Wie kann man den Fehler nachstellen?
+      placeholder: 1. Klicke auf... 2. Gehe zu...
+    validations:
+      required: true
